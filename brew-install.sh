@@ -14,4 +14,5 @@ brew install uncrustify
 brew install chisel
 brew install swiftlint
 brew install swiftformat
+brew install terraform
 brew install ffmpeg $(brew options ffmpeg | grep -vE '\s' | grep -- '--with-' | tr '\n' ' ')
